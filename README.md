@@ -1,4 +1,4 @@
-# bolt
+# PHP WebSocket
 
 Asynchronous WebSocket client client library for PHP. Supports HyBi, ~~as well as Hixie #76~~ (no point).
 
@@ -51,3 +51,5 @@ HTTP basic auth is also supported via the URI inf the form ```user:pass@host```
 
 
 Any feedback is most welcome
+
+This is a fork from: https://github.com/calcinai/bolt
