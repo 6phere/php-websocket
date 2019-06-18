@@ -92,10 +92,10 @@ class Client extends EventEmitter
         $this->use_exceptions = true;
     }
 
-    public function connect()
+    public function connect($timeout = 5)
     {
 
-        $connector = new Connector($this->loop, ['dns' => $this->resolver, 'timeout' => 5]);
+        $connector = new Connector($this->loop, ['dns' => $this->resolver, 'timeout' => $timeout]);
 
         $uri = (object)parse_url($this->uri);
 
