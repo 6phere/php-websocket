@@ -4,9 +4,9 @@
  * @author     Michael Calcinai <michael@calcin.ai>
  */
 
-namespace Calcinai\Bolt\Protocol;
+namespace Sixphere\WebSocket\Protocol;
 
-use Calcinai\Bolt\Client;
+use Sixphere\WebSocket\Client;
 use GuzzleHttp\Psr7\Uri;
 use Ratchet\RFC6455\Handshake\ClientNegotiator;
 use Ratchet\RFC6455\Messaging\CloseFrameChecker;

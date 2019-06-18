@@ -4,10 +4,10 @@
  * @author     Michael Calcinai <michael@calcin.ai>
  */
 
-namespace Calcinai\Bolt\Protocol;
+namespace Sixphere\WebSocket\Protocol;
 
-use Calcinai\Bolt\Client;
-use Calcinai\Bolt\Exception\ConnectionLostException;
+use Sixphere\WebSocket\Client;
+use Sixphere\WebSocket\Exception\ConnectionLostException;
 use React\EventLoop\Timer\Timer;
 use React\Socket\ConnectionInterface;
 

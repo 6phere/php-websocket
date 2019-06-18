@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Bolt\Tests\Stubs;
+namespace Sixphere\WebSocket\Tests\Stubs;
 
 class NotAValidProtocolStub {
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Calcinai\Bolt\Tests;
+namespace Sixphere\WebSocket\Tests;
 
 
-use Calcinai\Bolt\Client;
-use Calcinai\Bolt\Tests\Stubs\NotAValidProtocolStub;
-use Calcinai\Bolt\Tests\Stubs\ProtocolStub;
+use Sixphere\WebSocket\Client;
+use Sixphere\WebSocket\Tests\Stubs\NotAValidProtocolStub;
+use Sixphere\WebSocket\Tests\Stubs\ProtocolStub;
 use React\Promise\Promise;
 use React\Promise\PromiseInterface;
 

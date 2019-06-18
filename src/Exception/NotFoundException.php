@@ -4,7 +4,7 @@
  * @author     Michael Calcinai <michael@calcin.ai>
  */
 
-namespace Calcinai\Bolt\Exception;
+namespace Sixphere\WebSocket\Exception;
 
 
 class NotFoundException extends \Exception {

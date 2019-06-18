@@ -5,7 +5,7 @@
  * @author     Michael Calcinai <michael@calcin.ai>
  */
 
-namespace Calcinai\Bolt\Protocol;
+namespace Sixphere\WebSocket\Protocol;
 
 use Ratchet\RFC6455\Messaging\Frame;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Bolt\Tests;
+namespace Sixphere\WebSocket\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
@@ -49,7 +49,7 @@ abstract class TestCase extends BaseTestCase
 
     protected function createCallableMock()
     {
-        return $this->getMockBuilder('Calcinai\Bolt\Tests\Stubs\CallableStub')->getMock();
+        return $this->getMockBuilder('Sixphere\WebSocket\Tests\Stubs\CallableStub')->getMock();
     }
 
     public function setExpectedException($exception, $exceptionMessage = '', $exceptionCode = null)

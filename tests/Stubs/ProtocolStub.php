@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Bolt\Tests\Stubs;
+namespace Sixphere\WebSocket\Tests\Stubs;
 
-use Calcinai\Bolt\Protocol\AbstractProtocol;
+use Sixphere\WebSocket\Protocol\AbstractProtocol;
 
 class ProtocolStub extends AbstractProtocol {
 

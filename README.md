@@ -21,7 +21,7 @@ $loop = \React\EventLoop\Factory::create();
 $dns_factory = new React\Dns\Resolver\Factory();
 $resolver = $dns_factory->createCached('8.8.8.8', $loop);
 
-$client = new \Calcinai\Bolt\Client('ws://127.0.0.1:1337/chat', $loop, $resolver);
+$client = new \Sixphere\WebSocket\Client('ws://127.0.0.1:1337/chat', $loop, $resolver);
 
 //Most WS servers will complain/forbid if there is no origin header
 $client->setOrigin('127.0.0.1');

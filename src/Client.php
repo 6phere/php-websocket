@@ -5,10 +5,10 @@
  * @author     Michael Calcinai <michael@calcin.ai>
  */
 
-namespace Calcinai\Bolt;
+namespace Sixphere\WebSocket;
 
-use Calcinai\Bolt\Protocol\ProtocolInterface;
-use Calcinai\Bolt\Protocol\RFC6455;
+use Sixphere\WebSocket\Protocol\ProtocolInterface;
+use Sixphere\WebSocket\Protocol\RFC6455;
 use Evenement\EventEmitter;
 use Ratchet\RFC6455\Messaging\Frame;
 use React\Dns\Resolver\Resolver;
