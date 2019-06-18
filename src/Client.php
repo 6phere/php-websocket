@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package    calcinai/bolt
+ * @package    sixphere\websocket
  * @author     Michael Calcinai <michael@calcin.ai>
  */
 

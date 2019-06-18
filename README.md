@@ -8,7 +8,7 @@ This was built purely to be a client, as the majority of the WS clients availabl
     
 Using composer:
 
-    composer require calcinai/bolt   
+    composer require sixphere\php-websocket   
 
 
 # Usage
