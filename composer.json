@@ -19,11 +19,11 @@
 
     "autoload": {
         "psr-4": {
-            "Calcinai\\Bolt\\": "src/"
+            "Sixphere\\WebSocket\\": "src/"
         }
     },
 
     "autoload-dev": {
-        "psr-4": { "Calcinai\\Bolt\\Tests\\": "tests/" }
+        "psr-4": { "Sixphere\\WebSocket\\Tests\\": "tests/" }
     }
 }
