@@ -94,8 +94,10 @@ class Client extends EventEmitter
 
     public function connect($timeout = 5)
     {
-
-        $connector = new Connector($this->loop, ['dns' => $this->resolver, 'timeout' => $timeout]);
+        $connector_options = ['timeout' => $timeout];
+        if($this->resolver)
+            $connector_options['dns'] = $this->resolver;
+        $connector = new Connector($this->loop, $connector_options);
 
         $uri = (object)parse_url($this->uri);
 
